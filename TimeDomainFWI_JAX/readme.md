@@ -55,7 +55,7 @@ examples<br/>
 
 
 ### Code Entry Point 
-** Main Files that Run the Optmization (codes that run the inversion) **<br/> 
+**Main Files that Run the Optmization (codes that run the inversion)**<br/> 
     |-- timedomainFWI_LBFGS.ipynb (give run all from a notebook file to generate inversion results using lbfgs solver. This code does not look into each step of the solver rather uses solver.run and waits for it to finish)<br/> 
     |-- timedomainFWI_LBFGS_stepiter.ipynb (give run all from a notebook file to generate inversion results using lbfgs solver. This file monitors each step while lbfgs uses solver.update to update the gradients)<br/> 
     |-- timedomainFWI_LCG.ipynb (give run all from a notebook file to generate inversion results using LinearizedCG  solver. This code does not look into each step of the solver rather uses solver.run and waits for it to finish)<br/> 
