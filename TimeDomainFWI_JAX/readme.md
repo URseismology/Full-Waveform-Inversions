@@ -19,8 +19,8 @@ The following details out the information about the folder/files present in this
 Note: it is important to cd to this directory and source python from here before running all subsequent codes discussed below.
 |--
 
-** Folder 1: data (data source) ** 
-data
+** Folder 1: data (data source) ** <br/> 
+data<br/> 
     |-- breast_ct.jpg (sample of image the original breast cancer)
     |-- recordedData.mat (the recorded channel data across sensors that needs to be inverted)
 
