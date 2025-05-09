@@ -64,8 +64,8 @@ examples<br/>
 ### Contact 
 Please reach out to Sayan Swar (sswar@ur.rochester.edu) for any questions/suggestions regarding this approch.
 
-Thank You
-Sayan Kr. Swar
-Earth Imaging: Signals and Algorithms Lab
-Geoscience Dept, ECE Department
-University of Rochester
+Thank You<br/> 
+**Sayan Kr. Swar**<br/> 
+**Earth Imaging: Signals and Algorithms Lab**<br/> 
+Geoscience Dept, ECE Department<br/> 
+University of Rochester<br/> 
