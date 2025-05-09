@@ -38,7 +38,7 @@ utils <br/>
 results<br/> 
     |-- 4wd_*** (contains the images of forward waveform simulations, recorded channel data simulations)<br/> 
     |-- lbfgs_iterations (contains the images of the intermediate steps during the optimization step of lbfgs solver)<br/> 
-    |-- sensor_locations (contains images of how sensors and receivers change over time)<br/> 
+    |-- sensor_locations (contains images of how transmitters and receivers change over time)<br/> 
 Note: Folder 3 (lbfgs_iterations) is particularly important as it is used to monitor the intermediate steps of the solver. Rather than visualizing the results directly in the terminal/notebook, images are generated/saved for easier analysis and tracking.<br/> 
 
 
@@ -51,7 +51,7 @@ Note: This folder for now does not have anything meanigful. But it is created to
 **Folder 5: examples (contains some example notebook files)** <br/> 
 examples<br/> 
     |-- visualizeSoundSpeed.ipynb (notebook using the functions of getSoundSpeed.py to construct velocity map of sound while passing through breast tissues)<br/> 
-    |-- visualizeTimeDomainSimulation.ipynb (notebook the performes the time stepping algorithm to simulate waveform propagation soruced by a gaussian pulse and simulate recordings of the propagation at the receiver locations)<br/> 
+    |-- visualizeTimeDomainSimulation.ipynb (notebook that performes the time stepping algorithm to simulate waveform propagation sourced by a gaussian pulse and simulate recordings of the propagation at the receiver locations)<br/> 
 
 
 ### Code Entry Point 
