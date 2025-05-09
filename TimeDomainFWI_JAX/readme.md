@@ -21,17 +21,17 @@ Note: it is important to cd to this directory and source python from here before
 
 ** Folder 1: data (data source) ** <br/> 
 data<br/> 
-    |-- breast_ct.jpg (sample of image the original breast cancer)
-    |-- recordedData.mat (the recorded channel data across sensors that needs to be inverted)
+    |-- breast_ct.jpg (sample of image the original breast cancer)<br/> 
+    |-- recordedData.mat (the recorded channel data across sensors that needs to be inverted)<br/> 
 
 
-** Folder 2: utils (core computation functions/libraries) ** 
-utils 
-    |-- coreFWI.py (the core functions needed to run the Time Domain FWI)
-    |-- gaussPulse.py (function to generate a source pulse for waveform simulation)
-    |-- getSoundSpeed.py (empiracally construct the original velocity map of sound across the breast cancer tissue this data can be used to synthetically produce channel data that is in-practice recorded during a medical imaging)
-    |-- sample_circle.py (generates the ring array strucutre and records the position of each sensor element across 2D space)
-    |-- visuals.py (the function to generates gifs images for all simulations)
+** Folder 2: utils (core computation functions/libraries) ** <br/> 
+utils <br/> 
+    |-- coreFWI.py (the core functions needed to run the Time Domain FWI)<br/> 
+    |-- gaussPulse.py (function to generate a source pulse for waveform simulation)<br/> 
+    |-- getSoundSpeed.py (empiracally construct the original velocity map of sound across the breast cancer tissue this data can be used to synthetically produce channel data that is in-practice recorded during a medical imaging)<br/> 
+    |-- sample_circle.py (generates the ring array strucutre and records the position of each sensor element across 2D space)<br/> 
+    |-- visuals.py (the function to generates gifs images for all simulations)<br/> 
 
 
 ** Folder 3: results (resulting images of simulations. mainly used ot build gifs) ** 
