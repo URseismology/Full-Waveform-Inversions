@@ -15,7 +15,7 @@ The following libraries will be required to run the codes:
 ## Folders/Files 
 The following details out the information about the folder/files present in this document.
 
-**Root Folder: INV_PRB_IMG**
+**Root Folder: TimeDomainFWI_JAX**
 Note: it is important to cd to this directory and source python from here before running all subsequent codes discussed below.
 |--
 
