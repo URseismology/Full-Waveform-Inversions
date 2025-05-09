@@ -15,17 +15,17 @@ The following libraries will be required to run the codes:
 ## Folders/Files 
 The following details out the information about the folder/files present in this document.
 
-** Root Folder: INV_PRB_IMG **
+**Root Folder: INV_PRB_IMG**
 Note: it is important to cd to this directory and source python from here before running all subsequent codes discussed below.
 |--
 
-** Folder 1: data (data source) ** <br/> 
+**Folder 1: data (data source)** <br/> 
 data<br/> 
     |-- breast_ct.jpg (sample of image the original breast cancer)<br/> 
     |-- recordedData.mat (the recorded channel data across sensors that needs to be inverted)<br/> 
 
 
-** Folder 2: utils (core computation functions/libraries) ** <br/> 
+**Folder 2: utils (core computation functions/libraries)** <br/> 
 utils <br/> 
     |-- coreFWI.py (the core functions needed to run the Time Domain FWI)<br/> 
     |-- gaussPulse.py (function to generate a source pulse for waveform simulation)<br/> 
@@ -34,7 +34,7 @@ utils <br/>
     |-- visuals.py (the function to generates gifs images for all simulations)<br/> 
 
 
-** Folder 3: results (resulting images of simulations. mainly used ot build gifs) ** <br/> 
+**Folder 3: results (resulting images of simulations. mainly used ot build gifs)** <br/> 
 results<br/> 
     |-- 4wd_*** (contains the images of forward waveform simulations, recorded channel data simulations)<br/> 
     |-- lbfgs_iterations (contains the images of the intermediate steps during the optimization step of lbfgs solver)<br/> 
@@ -42,13 +42,13 @@ results<br/>
 Note: Folder 3 (lbfgs_iterations) is particularly important as it is used to monitor the intermediate steps of the solver. Rather than visualizing the results directly in the terminal/notebook, images are generated/saved for easier analysis and tracking.<br/> 
 
 
-** Folder 4: models (to save initial tree strctures of solver) ** <br/> 
+**Folder 4: models (to save initial tree strctures of solver)** <br/> 
 models<br/> 
     |-- empty<br/> 
 Note: This folder for now does not have anything meanigful. But it is created to particularly save init_state results of the solver particularly for long running processes. Since the init_state steps take the longest time to build the tree structure of the jit therefore saving it can reduce time wastage for re-running the solvers.<br/> 
 
 
-** Folder 5: examples (contains some example notebook files) ** <br/> 
+**Folder 5: examples (contains some example notebook files)** <br/> 
 examples<br/> 
     |-- visualizeSoundSpeed.ipynb (notebook using the functions of getSoundSpeed.py to construct velocity map of sound while passing through breast tissues)<br/> 
     |-- visualizeTimeDomainSimulation.ipynb (notebook the performes the time stepping algorithm to simulate waveform propagation soruced by a gaussian pulse and simulate recordings of the propagation at the receiver locations)<br/> 
