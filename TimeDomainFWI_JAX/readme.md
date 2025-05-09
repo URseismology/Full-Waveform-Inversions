@@ -1,4 +1,4 @@
-## This file defines the component of the Full Waveform Inversion in Timedomain with Jax
+Note: This file defines the component of the Full Waveform Inversion in Timedomain with Jax
 
 
 ## Project Description 
