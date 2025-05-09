@@ -1,18 +1,18 @@
 ## This file defines the component of the Full Waveform Inversion in Timedomain with Jax
 
 
-## Project Description %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+## Project Description 
 This project demonstrate the Power of JAX in performing full waveform inversion (FWI) in the time domain. The project primary aim is to reconstruct a medical image (spatial strcuture of tissues involving a breast in the presence of  malignant tumor). The project uses channel data recorded (sound pulse transmitted and received) across 256 elements in a Ring Array structure surrounding the specimen under observation. It then uses the FWI Time Domain technique to reconstruct the spatial structure of the tissue. 
 
 This project was developed as a part of the Inverse Problem in Imaging Cource (ECE485) taught by Dr. Rehman Ali at the University of Rochester.
 
 
-## Requirements %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+## Requirements 
 The following libraries will be required to run the codes:
     > jax, jaxopt, matplotlib, PIL, interpax, numpy, scipy, math, h5py, time, glob, tqdm
 
 
-## Folders/Files %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+## Folders/Files 
 The following details out the information about the folder/files present in this document.
 
 ** Root Folder: INV_PRB_IMG **
@@ -54,14 +54,14 @@ examples
     |-- visualizeTimeDomainSimulation.ipynb (notebook the performes the time stepping algorithm to simulate waveform propagation soruced by a gaussian pulse and simulate recordings of the propagation at the receiver locations)
 
 
-### Code Entry Point %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+### Code Entry Point 
 ** Main Files that Run the Optmization (codes that run the inversion) **
     |-- timedomainFWI_LBFGS.ipynb (give run all from a notebook file to generate inversion results using lbfgs solver. This code does not look into each step of the solver rather uses solver.run and waits for it to finish)
     |-- timedomainFWI_LBFGS_stepiter.ipynb (give run all from a notebook file to generate inversion results using lbfgs solver. This file monitors each step while lbfgs uses solver.update to update the gradients)
     |-- timedomainFWI_LCG.ipynb (give run all from a notebook file to generate inversion results using LinearizedCG  solver. This code does not look into each step of the solver rather uses solver.run and waits for it to finish)
 
 
-### Contact %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+### Contact 
 Please reach out to Sayan Swar (sswar@ur.rochester.edu) for any questions/suggestions regarding this approch.
 
 Thank You
